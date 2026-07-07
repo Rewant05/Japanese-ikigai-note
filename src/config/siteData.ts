@@ -82,22 +82,18 @@ export const heroCircles = [
   {
     label: "好きなこと",
     detail: "小さく心が動いた時間",
-    className: "hero-circle--love",
   },
   {
     label: "得意なこと",
     detail: "自然に続けられる工夫",
-    className: "hero-circle--skill",
   },
   {
     label: "大切にしたいこと",
     detail: "迷ったときに戻る価値観",
-    className: "hero-circle--value",
   },
   {
     label: "日々に役立つこと",
     detail: "誰かと暮らしに届く行動",
-    className: "hero-circle--daily",
   },
 ];
 
@@ -107,11 +103,42 @@ export const heroNotes = [
   "続けたいことと、手放してよいことを同じ紙に置く。",
 ];
 
+export const notebookPrompts = [
+  "今日、急がずに選べたことは何ですか。",
+  "小さく心が動いた場面を一つだけ書くなら、どこですか。",
+  "明日の自分に残したい余白は何ですか。",
+  "手放してもよい習慣を、やさしい言葉で書くなら何ですか。",
+];
+
 export const featuredQuestion = {
   eyebrow: "今日の問い",
   question: "今日、ほんの少しでも「自分らしい」と感じた瞬間はどこにありましたか。",
   hint: "大きな成果ではなく、会話、机の上、帰り道、手を止めた数秒から探してみます。",
 };
+
+export const videoStories = [
+  {
+    title: "朝のノート時間",
+    label: "morning note",
+    src: "/videos/morning-note.webm",
+    poster: "/images/ikigai-desk-hero-640.webp",
+    caption: "湯気、余白、鉛筆の動きだけを残した短い朝の記録。",
+  },
+  {
+    title: "ページをめくる前",
+    label: "page turn",
+    src: "/videos/page-turn-note.webm",
+    poster: "/images/reflection-notebook-detail-480.webp",
+    caption: "答えを急がず、次の問いへ移るための静かなページの動き。",
+  },
+  {
+    title: "価値観を置く",
+    label: "quiet values",
+    src: "/videos/quiet-values.webm",
+    poster: "/images/reflection-notebook-detail-480.webp",
+    caption: "好き、得意、大切にしたいことを、付箋のように並べ替える。",
+  },
+];
 
 export const ikigaiGuideData = [
   {

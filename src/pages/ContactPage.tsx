@@ -7,13 +7,13 @@ export function ContactPage() {
     <>
       <PageHeader
         eyebrow="お問い合わせ"
-        title="生きがいノート編集室へのご連絡。"
+        title="一通の手紙として、編集室へ届ける。"
         description="ガイド、振り返りノート、架空ワークショップ、取材・掲載、コラボレーションについてのお問い合わせ欄です。"
       />
 
-      <section className="section contact-layout">
-        <div className="contact-info" aria-label="連絡先">
-          <span className="section-kicker">連絡先</span>
+      <section className="section contact-layout letter-contact-layout">
+        <div className="contact-info letter-address" aria-label="連絡先">
+          <span className="section-kicker">宛先</span>
           <h2>返信に必要な範囲で、静かに確認します。</h2>
           <address>
             <span>{site.studioName}</span>
@@ -26,7 +26,9 @@ export function ContactPage() {
           </address>
           <p>{site.fictionalNotice}</p>
         </div>
-        <ContactForm />
+        <div className="letter-form-shell">
+          <ContactForm />
+        </div>
       </section>
     </>
   );
