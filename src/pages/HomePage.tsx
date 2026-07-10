@@ -36,7 +36,7 @@ export function HomePage() {
         </div>
         <div className="wide-notebook-spread">
           <div className="ruled-page">
-            <span className="page-tab">categories</span>
+            <span className="page-tab">カテゴリー</span>
             {reflectionQuestionData.slice(0, 5).map((item) => (
               <label className="checkbox-row" key={item.title}>
                 <span aria-hidden="true" />
@@ -45,7 +45,7 @@ export function HomePage() {
             ))}
           </div>
           <div className="ruled-page ruled-page--answer">
-            <span className="handwritten-label">example</span>
+            <span className="handwritten-label">例</span>
             <p>今日は、急いで返事をしなかった。少し待ったことで、自分の言葉を選べた。</p>
             <p>明日は、机の上を一つだけ戻してから一日を終える。</p>
           </div>

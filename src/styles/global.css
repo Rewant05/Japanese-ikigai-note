@@ -1328,6 +1328,8 @@ dd {
     margin-top: 10px;
     gap: 0.6rem;
     padding: 0.55rem;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
   }
 
   .header-cta,
